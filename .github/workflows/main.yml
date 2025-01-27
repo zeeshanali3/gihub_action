@@ -1,0 +1,8 @@
+name: gihub_action
+on: workflow_dispatch
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing_workflow1
+        run: echo "this is workflow testing"
